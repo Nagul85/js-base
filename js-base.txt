@@ -1,0 +1,29 @@
+1. Document Object:
+
+The document object represents the web page itself, or more specifically, the HTML document that is currently loaded in the browser.
+
+It provides access to the content of the web page, allowing you to manipulate and interact with the HTML, such as modifying elements, changing text, or adding/removing elements.
+
+You can access elements within the HTML document using various methods and properties of the document object, such as getElementById(), querySelector(), getElementsByTagName(), etc.
+
+
+
+Example:
+
+const element = document.getElementById("myElement");
+
+
+
+2. window Object:
+
+The window object represents the browser window or tab in which the web page is loaded.
+
+It provides access to the browser's properties and methods, allowing you to control and interact with the browser itself, rather than just the content of the web page.
+
+You can use the window object to perform actions like opening new browser windows or tabs, resizing the window, navigating to different URLs, setting timeouts/intervals for functions to run, and accessing browser-specific information.
+
+
+Example:
+
+// Open a new browser window
+window.open("https://www.example.com");
